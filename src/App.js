@@ -5,7 +5,6 @@ import FunctionalBox from './Containers/FunctionalBox';
 function App() {
   return (
     <div className="App">
-      <ColorBox/>
       <FunctionalBox/>
     </div>
   );

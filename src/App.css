@@ -1,11 +1,10 @@
-body { 
+/* body { 
   background-color: black;
-}
+} */
 
 .colorbox { 
   width: 400px;
   height: 400px;
-  background-color: aqua;
   margin: auto;
   margin-top: 15%;
   text-align: center;
