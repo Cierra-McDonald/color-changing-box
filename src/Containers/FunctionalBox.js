@@ -20,16 +20,16 @@ export default class FunctionalBox extends Component {
             })  
         }, 1000);
     }
-    
+
     componentWillUnmount() { 
         clearInterval(this.interval);
     }
   
     render() {
         return (
-            <div style={{backgroundColor:this.state.bgColor}}>
+            <div>
                <ColorBox
-               color={this.props.bgColor}
+               color={this.state.bgColor}
                />
             </div>
         )
